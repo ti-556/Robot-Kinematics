@@ -54,7 +54,7 @@ def inversekinematic(elbow, r1, r2, r3, d, x, y, z, a):
         angle4 = a - angle2 - angle3
 
     elif(elbow == "down"):
-       if(elbow == "up"):
+        if(elbow == "up"):
             if(x == 0 and y > 0):
                 angle1 = 90
             elif(x == 0 and y < 0):
