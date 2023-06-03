@@ -33,7 +33,7 @@ def forwardinput():
     
     forwardkinematic(len1, len2, len3, base, ang1, ang2, ang3, armangle)
 
-#Inverse: Output values are angles between each arm
+#Inverse: Output values are angles between each arm and the coordinates of each joint
 def inversekinematic(elbow, r1, r2, r3, d, x, y, z, a):
     if(elbow == "up"):
         if(x == 0 and y > 0):
@@ -120,7 +120,8 @@ def userchoice():
     else:
         print(f"Was unable to comprehend {choice}.\nPlease try again.")
         userchoice()
-        
+
+#Setting coordinates for 3D visualizer
 def visualizeinv():
     armdata = inverseinput()
     xcoords = [
@@ -166,6 +167,7 @@ def visualizeinv():
         armdata[15]
     ]
     
+    #Visualizing Arm
     fig = plt.figure()
     
     ax = fig.add_subplot(projection = '3d')
