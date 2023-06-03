@@ -8,3 +8,4 @@ Simple trignometry based kinematic calculations.
 
 
 ### 4R Robotic Arm
+$/cos(theta)
