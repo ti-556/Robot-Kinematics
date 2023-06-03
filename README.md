@@ -9,4 +9,5 @@ Simple trignometry based kinematic calculations.
 
 ### 4R Robotic Arm
 For forward kinematics, the 3D coordinates can be determined by:
-$(r_1\cos(\theta_2)+r_2\cos(\theta_2+\theta_3)+r_3\cos(\phi))\cos(\theta_1)$
+
+$x=(r_1\cos(\theta_2)+r_2\cos(\theta_2+\theta_3)+r_3\cos(\phi))\cos(\theta_1)$
