@@ -19,4 +19,4 @@ $z=d+r_1\sin(\theta_2)+r_2sin(\theta_2+\theta_3)+r_3\sin(\phi)$
 
 For **inverse kinematics**, joint angles can be determined by:
 
-$\theta_3=\arccos()$
+$\theta_1=\arctan(y/x)$
